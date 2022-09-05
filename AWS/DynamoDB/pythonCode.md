@@ -97,3 +97,5 @@ ParkedCarsResult = resource('dynamodb').Table('mepark-RecordParkingLots').scan(F
 ```python
 boto3.resource('dynamodb').Table('Accounts').put_item(Item = NewAccount)
 ```
+
+---
